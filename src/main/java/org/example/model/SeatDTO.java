@@ -1,0 +1,13 @@
+package org.example.model;
+
+import lombok.Builder;
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+@Builder
+public class SeatDTO {
+    Seat seat;
+    boolean isTaken;
+}
